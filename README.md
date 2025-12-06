@@ -8,7 +8,6 @@ This project, developed in collaboration with Bionic Soul, is an intelligent pro
 This is the current, optimized version.
 *   **On-Device Inference:** A `Decision Tree` model, trained in Python with Scikit-learn, was converted and deployed directly onto an **ESP32-S3 microcontroller**.
 *   **Real-Time Performance:** The system captures data from an MPU6050 IMU, processes it through the local AI model, and controls a servo motor in real-time with very low latency.
-*   **RTOS Management:** The system uses **FreeRTOS** to manage the high-priority tasks of sensor reading, AI inference, and motor control concurrently.
 
 ### Version 1: Initial Prototype (Raspberry Pi)
 *   **Data Collection:** An ESP32 collected data from IMU and force sensors.
@@ -18,6 +17,6 @@ This is the current, optimized version.
 ## Technologies Used
 
 *   **Hardware:** ESP32-S3, MPU6050 IMU, Force Sensors, Servo Motor, Raspberry Pi 3.
-*   **Firmware (C/C++):** FreeRTOS, ESP-IDF, Arduino IDE.
+*   **Firmware (C/C++): ESP-IDF, Arduino IDE.
 *   **AI & Machine Learning:** Python, Scikit-learn (Decision Tree, RandomForest), Edge AI, TensorFlow Lite (for conversion).
 *   **Mobile & Comms:** Flutter, Bluetooth Low Energy (BLE).
