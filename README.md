@@ -17,6 +17,5 @@ This is the current, optimized version.
 ## Technologies Used
 
 *   **Hardware:** ESP32-S3, MPU6050 IMU, Force Sensors, Servo Motor, Raspberry Pi 3.
-*   **Firmware (C/C++): ESP-IDF, Arduino IDE.
 *   **AI & Machine Learning:** Python, Scikit-learn (Decision Tree, RandomForest), Edge AI, TensorFlow Lite (for conversion).
 *   **Mobile & Comms:** Flutter, Bluetooth Low Energy (BLE).
